@@ -24,20 +24,27 @@ Si tienes preguntas o sugerencias, puedes contactarme en valentinasalgadoblandon
 ## Uso Rápido
 
 ```java
-import LibreriaContraseñas.LetrasAleatorias;
-import LibreriaContraseñas.NumerosAleatorios;
-import LibreriaContraseñas.CombinacionAleatoria;
+import combinacion_Aleatoria;
+import letras_Aleatorias;
+import numeros_Aleatorios;
 
 public class Main {
 
     public static void main(String[] args) {
         // Generar contraseña de letras aleatorias
-        String letras = LetrasAleatorias.generarLetrasAleatorias(10);
+        String letras = letras_Aleatorias.letras_Aleatorias(10);
         System.out.println("Contraseña de letras aleatorias: " + letras);
 
         // Generar contraseña de números aleatorios
-        String numeros = NumerosAleatorios.generarNumerosAleatorios(8, 0, 9);
+        String numeros = numeros_Aleatorios.numeros_Aleatorios(8, 0, 9);
         System.out.println("Contraseña de números aleatorios: " + numeros);
+
+        // Generar combinación aleatoria de caracteres
+        String combinacion = combinacion_Aleatoria.combinacion_Aleatoria(12);
+        System.out.println("Contraseña de combinación aleatoria: " + combinacion);
+    }
+}
+
 
         // Generar combinación aleatoria de caracteres
         String combinacion = CombinacionAleatoria.generarCombinacionAleatoria(12);
