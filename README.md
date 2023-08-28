@@ -1,4 +1,3 @@
-
 # Librería Generadora de Contraseñas Aleatorias
 
 Genera contraseñas aleatorias seguras en Java con esta librería. Incluye métodos para crear contraseñas de letras, números y combinaciones aleatorias. Fácil de integrar en tus proyectos.
@@ -11,7 +10,7 @@ Genera contraseñas aleatorias seguras en Java con esta librería. Incluye méto
 
 ## Requisitos
 
-Necesitas tener instalado un JDK (Kit de Desarrollo de Java) en tu sistema para usar esta librería.
+Necesitas tener instalado el JDK (Kit de Desarrollo de Java) en tu sistema para usar esta librería.
 
 ## Uso Rápido
 
@@ -36,3 +35,11 @@ public class Main {
         System.out.println("Contraseña de combinación aleatoria: " + combinacion);
     }
 }
+
+## Información Legal
+
+Esta librería está reservada con todos los derechos de autor. Es una tarea calificable para la clase de Desarrollo de Software de la Universidad del Sinú. El archivo puede ser modificado en el futuro como parte de los requisitos académicos. 
+
+## Contacto
+
+Si tienes preguntas o sugerencias, puedes contactarme en valentinasalgadoblandon16gmail.com
